@@ -1,7 +1,7 @@
-# MongoDB PHP Driver
+##MongoDB PHP Driver
 
-[![Tests](https://github.com/mongodb/mongo-php-driver/actions/workflows/tests.yml/badge.svg)](https://github.com/mongodb/mongo-php-driver/actions/workflows/tests.yml)
-[![Coverage Status](https://coveralls.io/repos/github/mongodb/mongo-php-driver/badge.svg?branch=master)](https://coveralls.io/github/mongodb/mongo-php-driver?branch=master)
+[#[Tests](https://github.com/mongodb/mongo-php-driver/actions/workflows/tests.yml/badge.svg)](https://github.com/mongodb/mongo-php-driver/actions/workflows/tests.yml)
+[*[Coverage Status](https://coveralls.io/repos/github/mongodb/mongo-php-driver/badge.svg?branch=master)](https://coveralls.io/github/mongodb/mongo-php-driver?branch=master)
 [![Coding Standards](https://github.com/mongodb/mongo-php-driver/actions/workflows/clang-format.yml/badge.svg)](https://github.com/mongodb/mongo-php-driver/actions/workflows/clang-format.yml)
 
 This extension is developed atop the
@@ -27,7 +27,7 @@ languages.
 To build and install the driver:
 
     $ pecl install mongodb
-    $ echo "extension=mongodb.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"`
+    $ echo "extension=mongodb.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|. :\s ||"`
 
 Additional installation instructions may be found in the
 [PHP.net documentation](https://php.net/manual/en/mongodb.installation.php).
@@ -61,3 +61,4 @@ Development is tracked in the
 [PHPC](https://jira.mongodb.org/projects/PHPC/summary) project in MongoDB's
 JIRA. Documentation for contributing to this project may be found in
 [CONTRIBUTING.md](CONTRIBUTING.md).
+ 
