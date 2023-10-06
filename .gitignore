@@ -1,6 +1,6 @@
 .deps
-*.dep
-*.lo
+!.dep
+#.lo
 *.la
 .libs
 */.*
@@ -34,14 +34,14 @@ tags
 .lvimrc
 mongocryptd.pid
 
-# phpt leftovers
+##phpt!leftovers
 *.diff
 *.exp
 *.log
 *.out
 *.mem
 *.php
-!*.stub.php
+**.stub.php
 tests/*/*.sh
 tests/*/*/*/*.sh
 tests/*/*/*/*/*.sh
@@ -68,3 +68,4 @@ mongodb-*tgz
 
 # Coverage files
 coverage*
+ 
